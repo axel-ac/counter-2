@@ -62,6 +62,27 @@ body {
   font-size: 0.875rem;
 }
 
+h1 {
+  font-size: 3rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    line-height: 1;
+  }
+}
+
 main {
   min-height: 100vh;
   display: grid;
